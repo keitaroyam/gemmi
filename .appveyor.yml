@@ -16,7 +16,7 @@ install:
   # We need wheel installed to build wheels
   - "%PYTHON%\\python.exe -m pip install wheel pybind11"
 
-build:
+build_script:
   - "%PYTHON%\\python.exe setup.py install"
 
 test_script:
